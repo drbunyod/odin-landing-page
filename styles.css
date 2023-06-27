@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 body {
     display: flex;
@@ -64,6 +64,36 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 5px;
+}
+
+.info {
+
+}
+
+.quote {
+    padding: 120px 280px;
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote .quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote .quote-author {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.action-call {
+
 }
 
 .footer {
