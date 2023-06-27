@@ -42,7 +42,7 @@ body {
     gap: 64px;
 }
 
-.hero .hero-title {
+.hero-title {
     margin: 0;
     padding: 0;
     color: #f9faf8;
@@ -50,12 +50,12 @@ body {
     font-weight: extra-bold;
 }
 
-.hero .hero-subtext {
+.hero-subtext {
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.hero .hero-button {
+button {
     padding: 8px 32px;
     background-color: #3882f6;
     color: #e5e7eb;
@@ -63,7 +63,8 @@ body {
     font-size: 18px;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .info {
@@ -79,21 +80,47 @@ body {
     margin: 0;
 }
 
-.quote .quote-text {
+.quote-text {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: light;
 }
 
-.quote .quote-author {
+.quote-author {
     font-size: 22px;
     font-weight: bold;
     text-align: right;
 }
 
 .action-call {
+    padding: 100px 200px;
+}
 
+.action-call-box {
+    display: flex;
+    padding: 48px 96px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.action-call-box h3 {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.action-call-box p {
+    margin: 0;
+}
+
+.action-call-button {
+    border: 3px solid #e5e7eb;
 }
 
 .footer {
