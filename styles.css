@@ -9,6 +9,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
 .header, .hero {
     display: flex;
     padding: 24px 200px;
@@ -43,8 +48,6 @@ body {
 }
 
 .hero-title {
-    margin: 0;
-    padding: 0;
     color: #f9faf8;
     font-size: 48px;
     font-weight: extra-bold;
@@ -68,7 +71,38 @@ button {
 }
 
 .info {
+    display: flex;
+    padding: 50px 280px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
 
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.info-images {
+    display: flex;
+    gap: 32px;
+}
+
+.info-image {
+    text-align: center;
+}
+
+.info-image img {
+    width: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-image p {
+    margin: 3px 0;
+    color: #666666;
 }
 
 .quote {
@@ -109,8 +143,6 @@ button {
 }
 
 .action-call-box h3 {
-    margin: 0;
-    padding: 0;
     color: #f9faf8;
     font-size: 24px;
 }
